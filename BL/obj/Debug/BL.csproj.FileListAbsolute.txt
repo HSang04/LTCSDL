@@ -1,0 +1,7 @@
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\bin\Debug\BL.dll
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\bin\Debug\BL.pdb
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\BL\obj\Debug\BL.csproj.Up2Date
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\BL\obj\Debug\BL.dll
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\BL\obj\Debug\BL.pdb

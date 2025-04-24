@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6CB096-FC48-480E-B48F-D30C4472A86D}|DL\\DL.csproj|c:\\users\\huynh\\onedrive\\desktop\\code\\gk_test2\\dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6CB096-FC48-480E-B48F-D30C4472A86D}|DL\\DL.csproj|solutionrelative:dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\to\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|solutionrelative:to\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\to\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|solutionrelative:to\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6CB096-FC48-480E-B48F-D30C4472A86D}|DL\\DL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\dl\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6CB096-FC48-480E-B48F-D30C4472A86D}|DL\\DL.csproj|solutionrelative:dl\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\gk_test2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\gk_test2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F986437-B487-4C7E-A991-E53D2CBBD80C}|BL\\BL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\bl\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F986437-B487-4C7E-A991-E53D2CBBD80C}|BL\\BL.csproj|solutionrelative:bl\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\gk_test2\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\gk_test2\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\TO\\Class1.cs",
+              "RelativeDocumentMoniker": "TO\\Class1.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\TO\\Class1.cs",
+              "RelativeToolTip": "TO\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:31:54.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\Login.cs",
+              "RelativeDocumentMoniker": "GK_Test2\\Login.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\Login.cs",
+              "RelativeToolTip": "GK_Test2\\Login.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAiwDQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:40:25.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserBL.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\BL\\UserBL.cs",
+              "RelativeDocumentMoniker": "BL\\UserBL.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\BL\\UserBL.cs",
+              "RelativeToolTip": "BL\\UserBL.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:32:11.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDL.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\DL\\UserDL.cs",
+              "RelativeDocumentMoniker": "DL\\UserDL.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\DL\\UserDL.cs",
+              "RelativeToolTip": "DL\\UserDL.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAgwGIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:31:52.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\DL\\DataProvider.cs",
+              "RelativeDocumentMoniker": "DL\\DataProvider.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\DL\\DataProvider.cs",
+              "RelativeToolTip": "DL\\DataProvider.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:10:57.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\TO\\User.cs",
+              "RelativeDocumentMoniker": "TO\\User.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\TO\\User.cs",
+              "RelativeToolTip": "TO\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:08:44.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TrangChu.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\TrangChu.cs",
+              "RelativeDocumentMoniker": "GK_Test2\\TrangChu.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\TrangChu.cs",
+              "RelativeToolTip": "GK_Test2\\TrangChu.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:03:23.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\Login.cs",
+              "RelativeDocumentMoniker": "GK_Test2\\Login.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\Login.cs [Design]",
+              "RelativeToolTip": "GK_Test2\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:01:29.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TrangChu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\TrangChu.cs",
+              "RelativeDocumentMoniker": "GK_Test2\\TrangChu.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\TrangChu.cs [Design]",
+              "RelativeToolTip": "GK_Test2\\TrangChu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:39:40.397Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

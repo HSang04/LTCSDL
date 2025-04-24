@@ -1,0 +1,12 @@
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\bin\Debug\GK_Test2.exe.config
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\bin\Debug\GK_Test2.exe
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\bin\Debug\GK_Test2.pdb
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\PL.csproj.AssemblyReference.cache
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\GK_Test2.Properties.Resources.resources
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\PL.csproj.GenerateResource.cache
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\PL.csproj.CoreCompileInputs.cache
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\PL.csproj.Up2Date
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\GK_Test2.exe
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\GK_Test2.pdb
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\GK_Test2.TrangChu.resources
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\GK_Test2.Login.resources

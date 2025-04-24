@@ -1,0 +1,6 @@
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\bin\Debug\TO.dll
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\bin\Debug\TO.pdb
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\TO\obj\Debug\TO.csproj.AssemblyReference.cache
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\TO\obj\Debug\TO.csproj.CoreCompileInputs.cache
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\TO\obj\Debug\TO.dll
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\TO\obj\Debug\TO.pdb
