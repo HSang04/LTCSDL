@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmSup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSup.Designer.cs">
+      <DependentUpon>FrmSup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupHT\AddSupp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupHT\AddSupp.Designer.cs">
+      <DependentUpon>AddSupp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupHT\EditSup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupHT\EditSup.Designer.cs">
+      <DependentUpon>EditSup.cs</DependentUpon>
+    </Compile>
     <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +78,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmSup.resx">
+      <DependentUpon>FrmSup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupHT\AddSupp.resx">
+      <DependentUpon>AddSupp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupHT\EditSup.resx">
+      <DependentUpon>EditSup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TrangChu.resx">
       <DependentUpon>TrangChu.cs</DependentUpon>
     </EmbeddedResource>

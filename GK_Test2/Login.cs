@@ -40,7 +40,7 @@ namespace GK_Test2
                 if (bl.Login(user))
                 {
                     MessageBox.Show("✅ Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                    this.DialogResult = DialogResult.OK;
                     // TODO: Chuyển sang form chính hoặc lưu thông tin user lại
                     // this.Hide(); new MainForm().Show(); hoặc lưu user vào biến toàn cục
                 }

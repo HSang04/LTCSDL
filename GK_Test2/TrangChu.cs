@@ -12,7 +12,15 @@ namespace GK_Test2
 {
     public partial class TrangChu : Form
     {
+
+       
+
         public TrangChu()
+        {
+            InitializeComponent();
+        }
+
+        private void TrangChu_Load(object sender, EventArgs e)
         {
             this.Show();
             Enabled = false;
@@ -26,7 +34,24 @@ namespace GK_Test2
             {
                 Application.Exit();
             }
-
         }
+
+        private void AddForm(Form form)
+        {
+            form.TopLevel = false;
+            panelMain.Controls.Clear();
+            panelMain.Controls.Add(form);
+
+            form.Dock = DockStyle.Fill;
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.Show();
+        }
+        private void btCongTy_Click(object sender, EventArgs e)
+        {
+           FrmSup sup = new FrmSup();
+           AddForm(sup);
+        }
+
+      
     }
 }

@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.btCongTy = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panelMain = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,6 +45,16 @@
             this.panel1.Size = new System.Drawing.Size(189, 450);
             this.panel1.TabIndex = 0;
             // 
+            // btCongTy
+            // 
+            this.btCongTy.Location = new System.Drawing.Point(12, 123);
+            this.btCongTy.Name = "btCongTy";
+            this.btCongTy.Size = new System.Drawing.Size(163, 56);
+            this.btCongTy.TabIndex = 1;
+            this.btCongTy.Text = "Công ty";
+            this.btCongTy.UseVisualStyleBackColor = true;
+            this.btCongTy.Click += new System.EventHandler(this.btCongTy_Click);
+            // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -54,23 +65,25 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Label 1";
             // 
-            // btCongTy
+            // panelMain
             // 
-            this.btCongTy.Location = new System.Drawing.Point(12, 123);
-            this.btCongTy.Name = "btCongTy";
-            this.btCongTy.Size = new System.Drawing.Size(163, 56);
-            this.btCongTy.TabIndex = 1;
-            this.btCongTy.Text = "Công ty";
-            this.btCongTy.UseVisualStyleBackColor = true;
+            this.panelMain.BackColor = System.Drawing.Color.PapayaWhip;
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(189, 0);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(611, 450);
+            this.panelMain.TabIndex = 1;
             // 
-            // Form1
+            // TrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "TrangChu";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.TrangChu_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -81,6 +94,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btCongTy;
+        private System.Windows.Forms.Panel panelMain;
     }
 }
 

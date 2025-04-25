@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B6CB096-FC48-480E-B48F-D30C4472A86D}|DL\\DL.csproj|c:\\users\\huynh\\onedrive\\desktop\\code\\gk_test2\\dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6CB096-FC48-480E-B48F-D30C4472A86D}|DL\\DL.csproj|solutionrelative:dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|c:\\users\\huynh\\onedrive\\desktop\\code\\gk_test2\\gk_test2\\supht\\editsup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\supht\\editsup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\to\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|solutionrelative:to\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|c:\\users\\huynh\\onedrive\\desktop\\code\\gk_test2\\gk_test2\\supht\\addsupp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\supht\\addsupp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\to\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|solutionrelative:to\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|c:\\users\\huynh\\onedrive\\desktop\\code\\gk_test2\\gk_test2\\frmsup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\frmsup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|c:\\users\\huynh\\onedrive\\desktop\\code\\gk_test2\\gk_test2\\supht\\addsupp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\supht\\addsupp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|c:\\users\\huynh\\onedrive\\desktop\\code\\gk_test2\\gk_test2\\frmsup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\frmsup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|c:\\users\\huynh\\onedrive\\desktop\\code\\gk_test2\\to\\sup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|solutionrelative:to\\sup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6CB096-FC48-480E-B48F-D30C4472A86D}|DL\\DL.csproj|c:\\users\\huynh\\onedrive\\desktop\\code\\gk_test2\\dl\\supdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6CB096-FC48-480E-B48F-D30C4472A86D}|DL\\DL.csproj|solutionrelative:dl\\supdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F986437-B487-4C7E-A991-E53D2CBBD80C}|BL\\BL.csproj|c:\\users\\huynh\\onedrive\\desktop\\code\\gk_test2\\bl\\supbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F986437-B487-4C7E-A991-E53D2CBBD80C}|BL\\BL.csproj|solutionrelative:bl\\supbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\gk_test2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\gk_test2\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|c:\\users\\huynh\\onedrive\\desktop\\code\\gk_test2\\gk_test2\\frmsup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\frmsup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B6CB096-FC48-480E-B48F-D30C4472A86D}|DL\\DL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\dl\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +55,32 @@
       "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\gk_test2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\gk_test2\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|c:\\users\\huynh\\onedrive\\desktop\\code\\gk_test2\\gk_test2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F986437-B487-4C7E-A991-E53D2CBBD80C}|BL\\BL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\bl\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F986437-B487-4C7E-A991-E53D2CBBD80C}|BL\\BL.csproj|solutionrelative:bl\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\gk_test2\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|c:\\users\\huynh\\onedrive\\desktop\\code\\gk_test2\\gk_test2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\gk_test2\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4CEA5FB9-AF41-4225-95CD-C240C6298409}|GK_Test2\\PL.csproj|solutionrelative:gk_test2\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8B6CB096-FC48-480E-B48F-D30C4472A86D}|DL\\DL.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6CB096-FC48-480E-B48F-D30C4472A86D}|DL\\DL.csproj|solutionrelative:dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\to\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|solutionrelative:to\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\to\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F85CC43-04E1-41EA-B92B-AC69E2FCC615}|TO\\TO.csproj|solutionrelative:to\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +90,151 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditSup.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\SupHT\\EditSup.cs",
+              "RelativeDocumentMoniker": "GK_Test2\\SupHT\\EditSup.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\SupHT\\EditSup.cs [Design]",
+              "RelativeToolTip": "GK_Test2\\SupHT\\EditSup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:29:53.598Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddSupp.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\SupHT\\AddSupp.cs",
+              "RelativeDocumentMoniker": "GK_Test2\\SupHT\\AddSupp.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\SupHT\\AddSupp.cs",
+              "RelativeToolTip": "GK_Test2\\SupHT\\AddSupp.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAACMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:57:30.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddSupp.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\SupHT\\AddSupp.cs",
+              "RelativeDocumentMoniker": "GK_Test2\\SupHT\\AddSupp.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\SupHT\\AddSupp.cs [Design]",
+              "RelativeToolTip": "GK_Test2\\SupHT\\AddSupp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:56:39Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmSup.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\FrmSup.Designer.cs",
+              "RelativeDocumentMoniker": "GK_Test2\\FrmSup.Designer.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\FrmSup.Designer.cs",
+              "RelativeToolTip": "GK_Test2\\FrmSup.Designer.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAIAwwGAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:20:31.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FrmSup.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\FrmSup.cs",
+              "RelativeDocumentMoniker": "GK_Test2\\FrmSup.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\FrmSup.cs",
+              "RelativeToolTip": "GK_Test2\\FrmSup.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAEwF4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:55:12.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\Program.cs",
+              "RelativeDocumentMoniker": "GK_Test2\\Program.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\Program.cs",
+              "RelativeToolTip": "GK_Test2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:41:03.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmSup.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\FrmSup.cs",
+              "RelativeDocumentMoniker": "GK_Test2\\FrmSup.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\FrmSup.cs [Design]",
+              "RelativeToolTip": "GK_Test2\\FrmSup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:35:48.365Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sup.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\TO\\Sup.cs",
+              "RelativeDocumentMoniker": "TO\\Sup.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\TO\\Sup.cs",
+              "RelativeToolTip": "TO\\Sup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:35:32.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SupDL.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\DL\\SupDL.cs",
+              "RelativeDocumentMoniker": "DL\\SupDL.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\DL\\SupDL.cs",
+              "RelativeToolTip": "DL\\SupDL.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAmwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:35:12.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SupBL.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\BL\\SupBL.cs",
+              "RelativeDocumentMoniker": "BL\\SupBL.cs",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\BL\\SupBL.cs",
+              "RelativeToolTip": "BL\\SupBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:35:04.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\App.config",
+              "RelativeDocumentMoniker": "GK_Test2\\App.config",
+              "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\App.config",
+              "RelativeToolTip": "GK_Test2\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-25T07:00:30.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\TO\\Class1.cs",
               "RelativeDocumentMoniker": "TO\\Class1.cs",
@@ -62,19 +246,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\Login.cs",
               "RelativeDocumentMoniker": "GK_Test2\\Login.cs",
               "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\Login.cs",
               "RelativeToolTip": "GK_Test2\\Login.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAiwDQAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:40:25.095Z"
+              "WhenOpened": "2025-04-24T13:40:25.095Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "UserBL.cs",
               "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\BL\\UserBL.cs",
               "RelativeDocumentMoniker": "BL\\UserBL.cs",
@@ -82,11 +267,12 @@
               "RelativeToolTip": "BL\\UserBL.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:32:11.313Z"
+              "WhenOpened": "2025-04-24T13:32:11.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 17,
               "Title": "UserDL.cs",
               "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\DL\\UserDL.cs",
               "RelativeDocumentMoniker": "DL\\UserDL.cs",
@@ -94,24 +280,24 @@
               "RelativeToolTip": "DL\\UserDL.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAgwGIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:31:52.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:31:52.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "DataProvider.cs",
               "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\DL\\DataProvider.cs",
               "RelativeDocumentMoniker": "DL\\DataProvider.cs",
               "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\DL\\DataProvider.cs",
               "RelativeToolTip": "DL\\DataProvider.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAgwA0AAAARAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowA8AAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:10:57.411Z"
+              "WhenOpened": "2025-04-24T13:10:57.411Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 18,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\TO\\User.cs",
               "RelativeDocumentMoniker": "TO\\User.cs",
@@ -123,37 +309,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "TrangChu.cs",
               "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\TrangChu.cs",
               "RelativeDocumentMoniker": "GK_Test2\\TrangChu.cs",
               "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\TrangChu.cs",
               "RelativeToolTip": "GK_Test2\\TrangChu.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAABYAAAAfAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAApwDIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:03:23.5Z"
+              "WhenOpened": "2025-04-24T13:03:23.5Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\Login.cs",
               "RelativeDocumentMoniker": "GK_Test2\\Login.cs",
               "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\Login.cs [Design]",
               "RelativeToolTip": "GK_Test2\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:01:29.139Z"
+              "WhenOpened": "2025-04-24T13:01:29.139Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "TrangChu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\TrangChu.cs",
               "RelativeDocumentMoniker": "GK_Test2\\TrangChu.cs",
               "ToolTip": "C:\\Users\\huynh\\OneDrive\\Desktop\\Code\\GK_Test2\\GK_Test2\\TrangChu.cs [Design]",
               "RelativeToolTip": "GK_Test2\\TrangChu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T12:39:40.397Z"
+              "WhenOpened": "2025-04-24T12:39:40.397Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

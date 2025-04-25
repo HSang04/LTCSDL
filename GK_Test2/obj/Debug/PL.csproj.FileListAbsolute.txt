@@ -10,3 +10,5 @@ C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\GK_Test2.exe
 C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\GK_Test2.pdb
 C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\GK_Test2.TrangChu.resources
 C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\GK_Test2.Login.resources
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\GK_Test2.FrmSup.resources
+C:\Users\huynh\OneDrive\Desktop\Code\GK_Test2\GK_Test2\obj\Debug\GK_Test2.SupHT.AddSupp.resources
