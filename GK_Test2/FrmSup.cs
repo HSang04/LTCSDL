@@ -48,42 +48,10 @@ namespace GK_Test2
             deleteColumn.ImageLayout = DataGridViewImageCellLayout.Zoom;
             dgvSup.Columns.Add(deleteColumn);
 
-            dgvSup.CellClick += dgvSup_CellClick;
+            //dgvSup.CellClick += dgvSup_CellClick;
         }
 
-        private void dgvSup_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.RowIndex >= 0)
-            {
-                string id = dgvSup.Rows[e.RowIndex].Cells["id"].Value.ToString();
-
-                // Click cột Sửa
-                if (dgvSup.Columns[e.ColumnIndex].Name == "Edit")
-                {
-                    MessageBox.Show($"Bạn muốn sửa dòng có ID = {id}");
-
-                }
-
-
-                if (dgvSup.Columns[e.ColumnIndex].Name == "Delete")
-                {
-                    DialogResult result = MessageBox.Show($"Bạn có chắc muốn xóa ID = {id}?", "Xác nhận", MessageBoxButtons.YesNo);
-                    if (result == DialogResult.Yes)
-                    {
-                        if (supBL.DeleteSupplier(id))
-                        {
-                            MessageBox.Show("Xóa thành công!");
-                            Sup_Load(null, null);
-                        }
-                        else
-                        {
-                            MessageBox.Show("Xóa thất bại!");
-                        }
-                    }
-                }
-            }
-        }
-
+      
         private void btThem_Click(object sender, EventArgs e)
         {
             AddSupp formAdd = new AddSupp();
@@ -96,6 +64,60 @@ namespace GK_Test2
             }
 
 
+        }
+
+        private void dgvSup_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                if (e.ColumnIndex == dgvSup.Columns["Edit"].Index)
+                {
+                    string supplierId = dgvSup.Rows[e.RowIndex].Cells["Id"].Value?.ToString();
+
+                    if (!string.IsNullOrEmpty(supplierId))
+                    {
+                        EditSup formEdit = new EditSup(supplierId);
+                        DialogResult result = formEdit.ShowDialog();
+                        if (result == DialogResult.Yes)
+                        {
+                            dgvSup.DataSource = supBL.GetSuppliers();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không tìm thấy ID của nhà cung cấp.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+
+              
+                else if (e.ColumnIndex == dgvSup.Columns["Delete"].Index)
+                {
+                 
+                    string supplierId = dgvSup.Rows[e.RowIndex].Cells["Id"].Value?.ToString();
+
+                    if (!string.IsNullOrEmpty(supplierId))
+                    {
+                        DialogResult confirmResult = MessageBox.Show("Bạn có chắc chắn muốn xóa nhà cung cấp này?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        if (confirmResult == DialogResult.Yes)
+                        {
+                            bool isDeleted = supBL.DeleteSupplier(supplierId);
+                            if (isDeleted)
+                            {
+                                MessageBox.Show("Xóa nhà cung cấp thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                dgvSup.DataSource = supBL.GetSuppliers(); 
+                            }
+                            else
+                            {
+                                MessageBox.Show("Xóa nhà cung cấp thất bại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không tìm thấy ID của nhà cung cấp.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
         }
     }
 }

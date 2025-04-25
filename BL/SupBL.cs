@@ -1,6 +1,7 @@
 ﻿using DL;
 using System;
 using System.Data;
+using System.Runtime.Remoting.Contexts;
 using TO;
 
 namespace BL
@@ -25,14 +26,20 @@ namespace BL
             return supDL.DeleteSupplier(id);
         }
 
-        public bool UpdateSupplier(Sup s)
+        public bool EditSupplier(Sup s)
         {
-            return supDL.UpdateSupplier(s);
+            return supDL.EditSupplier(s);
         }
 
         public bool AddSupplier(Sup s)
         {
             return supDL.AddSupplier(s);
         }
+        public Sup GetSupplierById(string supplierId)
+        {
+   
+            return supDL.GetSupplierById(supplierId);
+        }
+
     }
 }

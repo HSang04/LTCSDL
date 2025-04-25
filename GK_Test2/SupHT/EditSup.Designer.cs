@@ -63,6 +63,7 @@
             this.btSave.TabIndex = 3;
             this.btSave.Text = "button1";
             this.btSave.UseVisualStyleBackColor = true;
+            this.btSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // EditSup
             // 
@@ -75,6 +76,7 @@
             this.Controls.Add(this.tbID);
             this.Name = "EditSup";
             this.Text = "EditSup";
+            this.Load += new System.EventHandler(this.EditSup_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

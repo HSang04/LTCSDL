@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.dgvSup = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btThem = new System.Windows.Forms.Button();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btThem = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSup)).BeginInit();
             this.SuspendLayout();
             // 
@@ -40,7 +40,7 @@
             // 
             this.dgvSup.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSup.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
+            this.id,
             this.Column2,
             this.Column3});
             this.dgvSup.Location = new System.Drawing.Point(12, 71);
@@ -51,13 +51,23 @@
             this.dgvSup.TabIndex = 0;
             this.dgvSup.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSup_CellClick);
             // 
-            // Column1
+            // btThem
             // 
-            this.Column1.DataPropertyName = "id";
-            this.Column1.HeaderText = "Ma CTY";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
+            this.btThem.Location = new System.Drawing.Point(543, 352);
+            this.btThem.Name = "btThem";
+            this.btThem.Size = new System.Drawing.Size(191, 55);
+            this.btThem.TabIndex = 1;
+            this.btThem.Text = "button1";
+            this.btThem.UseVisualStyleBackColor = true;
+            this.btThem.Click += new System.EventHandler(this.btThem_Click);
+            // 
+            // id
+            // 
+            this.id.DataPropertyName = "id";
+            this.id.HeaderText = "Ma CTY";
+            this.id.MinimumWidth = 6;
+            this.id.Name = "id";
+            this.id.Width = 125;
             // 
             // Column2
             // 
@@ -74,16 +84,6 @@
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             this.Column3.Width = 125;
-            // 
-            // btThem
-            // 
-            this.btThem.Location = new System.Drawing.Point(543, 352);
-            this.btThem.Name = "btThem";
-            this.btThem.Size = new System.Drawing.Size(191, 55);
-            this.btThem.TabIndex = 1;
-            this.btThem.Text = "button1";
-            this.btThem.UseVisualStyleBackColor = true;
-            this.btThem.Click += new System.EventHandler(this.btThem_Click);
             // 
             // FrmSup
             // 
@@ -103,9 +103,9 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvSup;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.Button btThem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.Button btThem;
     }
 }
