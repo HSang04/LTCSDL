@@ -17,35 +17,35 @@ namespace DL
             cn = new SqlConnection(cnStr);
         }
 
-        public void Connect()
-        {
-            try
-            {
-                if (cn != null && cn.State == ConnectionState.Closed)
-                {
-                    cn.Open();
-                }
-            }
-            catch (SqlException ex)
-            {
-                throw ex;
-            }
-        }
+        //public void Connect()
+        //{
+        //    try
+        //    {
+        //        if (cn != null && cn.State == ConnectionState.Closed)
+        //        {
+        //            cn.Open();
+        //        }
+        //    }
+        //    catch (SqlException ex)
+        //    {
+        //        throw ex;
+        //    }
+        //}
 
-        public void DisConnect()
-        {
-            try
-            {
-                if (cn != null && cn.State == ConnectionState.Open)
-                {
-                    cn.Close();
-                }
-            }
-            catch (SqlException ex)
-            {
-                throw ex;
-            }
-        }
+        //public void DisConnect()
+        //{
+        //    try
+        //    {
+        //        if (cn != null && cn.State == ConnectionState.Open)
+        //        {
+        //            cn.Close();
+        //        }
+        //    }
+        //    catch (SqlException ex)
+        //    {
+        //        throw ex;
+        //    }
+        //}
 
        /* public Object MyExecuteScalar(string sql, CommandType type)
         {
