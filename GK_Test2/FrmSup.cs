@@ -33,6 +33,7 @@ namespace GK_Test2
             }
 
 
+
             DataGridViewImageColumn editColumn = new DataGridViewImageColumn();
             editColumn.Name = "Edit";
             editColumn.HeaderText = "Sửa";

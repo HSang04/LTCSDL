@@ -8,6 +8,7 @@ namespace DL
 {
     public class SupDL : DataProvider
     {
+
         public DataSet GetSuppliers()
         {
             DataSet ds = new DataSet();
@@ -31,16 +32,23 @@ namespace DL
 
         public bool AddSupplier(Sup s)
         {
-            string sql = "INSERT INTO Supplier (Id, Name, Address) VALUES (@id, @name, @address)";
             try
             {
                 Connect();
-                SqlCommand cmd = new SqlCommand(sql, cn);
-                cmd.Parameters.AddWithValue("@id", s.Id);
-                cmd.Parameters.AddWithValue("@name", s.Name);
-                cmd.Parameters.AddWithValue("@address", s.Address);
-                int rows = cmd.ExecuteNonQuery();
-                return rows > 0;
+                SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Supplier", cn);
+                SqlCommandBuilder cb = new SqlCommandBuilder(adapter);
+
+                DataSet ds = new DataSet();
+                adapter.Fill(ds);  
+
+                DataRow newRow = ds.Tables[0].NewRow();  
+                newRow["Id"] = s.Id;
+                newRow["Name"] = s.Name;
+                newRow["Address"] = s.Address;
+                ds.Tables[0].Rows.Add(newRow); 
+
+                int rowsAffected = adapter.Update(ds.Tables[0]);  
+                return rowsAffected > 0;
             }
             catch (SqlException ex)
             {
@@ -52,18 +60,29 @@ namespace DL
             }
         }
 
+       
         public bool UpdateSupplier(Sup s)
         {
-            string sql = "UPDATE Supplier SET Name = @name, Address = @address WHERE Id = @id";
             try
             {
                 Connect();
-                SqlCommand cmd = new SqlCommand(sql, cn);
-                cmd.Parameters.AddWithValue("@id", s.Id);
-                cmd.Parameters.AddWithValue("@name", s.Name);
-                cmd.Parameters.AddWithValue("@address", s.Address);
-                int rows = cmd.ExecuteNonQuery();
-                return rows > 0;
+                SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Supplier WHERE Id = @id", cn);
+                adapter.SelectCommand.Parameters.AddWithValue("@id", s.Id);
+                SqlCommandBuilder cb = new SqlCommandBuilder(adapter);
+
+                DataSet ds = new DataSet();
+                adapter.Fill(ds); 
+
+                if (ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                {
+                    DataRow row = ds.Tables[0].Rows[0]; 
+                    row["Name"] = s.Name;
+                    row["Address"] = s.Address;
+
+                    int rowsAffected = adapter.Update(ds.Tables[0]);  
+                    return rowsAffected > 0;
+                }
+                return false;
             }
             catch (SqlException ex)
             {
@@ -75,16 +94,26 @@ namespace DL
             }
         }
 
+      
         public bool DeleteSupplier(string id)
         {
-            string sql = "DELETE FROM Supplier WHERE Id = @id";
             try
             {
                 Connect();
-                SqlCommand cmd = new SqlCommand(sql, cn);
-                cmd.Parameters.AddWithValue("@id", id);
-                int rows = cmd.ExecuteNonQuery();
-                return rows > 0;
+                SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Supplier WHERE Id = @id", cn);
+                adapter.SelectCommand.Parameters.AddWithValue("@id", id);
+                SqlCommandBuilder cb = new SqlCommandBuilder(adapter);
+
+                DataSet ds = new DataSet();
+                adapter.Fill(ds); 
+
+                if (ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                {
+                    ds.Tables[0].Rows[0].Delete();  // Xóa dòng
+                    int rowsAffected = adapter.Update(ds.Tables[0]);  
+                    return rowsAffected > 0;
+                }
+                return false;
             }
             catch (SqlException ex)
             {
@@ -96,31 +125,27 @@ namespace DL
             }
         }
 
+       
         public Sup GetSupplierById(string supplierId)
         {
-            Console.WriteLine("Chieu " + supplierId);
             Sup supplier = null;
             string sql = "SELECT * FROM Supplier WHERE Id = @id";
 
             try
             {
-               
                 if (!string.IsNullOrEmpty(supplierId))
                 {
-                    Connect();  
+                    Connect();
                     SqlDataAdapter adapter = new SqlDataAdapter(sql, cn);
                     adapter.SelectCommand.Parameters.AddWithValue("@id", supplierId);
 
                     DataTable dt = new DataTable();
-                    adapter.Fill(dt);
-
-                    
+                    adapter.Fill(dt);  
                     if (dt.Rows.Count > 0)
                     {
-                        DataRow row = dt.Rows[0];
+                        DataRow row = dt.Rows[0]; 
                         supplier = new Sup
                         {
-                            // Lấy Id dưới dạng string
                             Id = row["Id"].ToString(),
                             Name = row["Name"].ToString(),
                             Address = row["Address"].ToString()
@@ -138,7 +163,7 @@ namespace DL
             }
             finally
             {
-                DisConnect();  
+                DisConnect();
             }
 
             return supplier;
@@ -146,44 +171,36 @@ namespace DL
 
         public bool EditSupplier(Sup s)
         {
-            string sql = "SELECT * FROM Supplier WHERE Id = @id";
-            Console.WriteLine("Toi " + s.Id);
             try
             {
                 Connect();
-                SqlDataAdapter adapter = new SqlDataAdapter(sql, cn);
+                SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Supplier WHERE Id = @id", cn);
                 adapter.SelectCommand.Parameters.AddWithValue("@id", s.Id);
-                SqlCommandBuilder commandBuilder = new SqlCommandBuilder(adapter);
+                SqlCommandBuilder cb = new SqlCommandBuilder(adapter);
 
-                DataTable dt = new DataTable();
-                adapter.Fill(dt); 
+                DataSet ds = new DataSet();
+                adapter.Fill(ds); 
 
-                if (dt.Rows.Count > 0)
+                if (ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
-                   
-                    DataRow row = dt.Rows[0];
-                    row["Name"] = s.Name;
-                    row["Address"] = s.Address;
-                    int rowsAffected = adapter.Update(dt);
+                    DataRow row = ds.Tables[0].Rows[0];  
+                    row["Name"] = s.Name;  
+                    row["Address"] = s.Address;  
 
-                    return rowsAffected > 0; 
+                    int rowsAffected = adapter.Update(ds.Tables[0]);  
+                    return rowsAffected > 0;  
                 }
-                else
-                {
-                    MessageBox.Show("Không tìm thấy nhà cung cấp với ID: " + s.Id, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return false;
-                }
+                return false;  
             }
             catch (SqlException ex)
             {
-                throw ex; 
+                throw ex;  
             }
             finally
             {
                 DisConnect(); 
             }
         }
-
 
     }
 }

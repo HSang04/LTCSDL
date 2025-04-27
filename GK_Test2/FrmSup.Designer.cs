@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.dgvSup = new System.Windows.Forms.DataGridView();
-            this.btThem = new System.Windows.Forms.Button();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btThem = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSup)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,16 +50,6 @@
             this.dgvSup.Size = new System.Drawing.Size(776, 249);
             this.dgvSup.TabIndex = 0;
             this.dgvSup.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSup_CellClick);
-            // 
-            // btThem
-            // 
-            this.btThem.Location = new System.Drawing.Point(543, 352);
-            this.btThem.Name = "btThem";
-            this.btThem.Size = new System.Drawing.Size(191, 55);
-            this.btThem.TabIndex = 1;
-            this.btThem.Text = "button1";
-            this.btThem.UseVisualStyleBackColor = true;
-            this.btThem.Click += new System.EventHandler(this.btThem_Click);
             // 
             // id
             // 
@@ -84,6 +74,16 @@
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             this.Column3.Width = 125;
+            // 
+            // btThem
+            // 
+            this.btThem.Location = new System.Drawing.Point(543, 352);
+            this.btThem.Name = "btThem";
+            this.btThem.Size = new System.Drawing.Size(191, 55);
+            this.btThem.TabIndex = 1;
+            this.btThem.Text = "button1";
+            this.btThem.UseVisualStyleBackColor = true;
+            this.btThem.Click += new System.EventHandler(this.btThem_Click);
             // 
             // FrmSup
             // 

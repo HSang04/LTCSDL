@@ -47,7 +47,7 @@ namespace DL
             }
         }
 
-        public Object MyExecuteScalar(string sql, CommandType type)
+       /* public Object MyExecuteScalar(string sql, CommandType type)
         {
             SqlCommand cmd = new SqlCommand(sql, cn);
             cmd.CommandType = type;
@@ -98,7 +98,7 @@ namespace DL
             {
                 DisConnect();
             }
-        }
+        } */
 
     }
 }
